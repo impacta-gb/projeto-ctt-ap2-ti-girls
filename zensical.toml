@@ -1,4 +1,20 @@
-# ============================================================================
+[site]
+title = "Documentação Go"
+
+[nav]
+pages = [
+  "docs/index.md",
+  "docs/introducao.md",
+  "docs/variaveis.md",
+  "docs/controle.md",
+  "docs/arrays.md",
+  "docs/structs.md",
+  "docs/errors.md",
+  "docs/goroutines.md",
+  "docs/channels.md",
+  "docs/gomodules.md",
+  "docs/testes.md"
+]# ============================================================================
 #
 # The configuration produced by default is meant to highlight the features
 # that Zensical provides and to serve as a starting point for your own
