@@ -1,24 +1,28 @@
+# Tratamento de Erros
+
+Em Go, erros são tratados explicitamente.
+
+## Exemplo
+
 ```go
 package main
 
 import (
     "fmt"
-    "errors"
+    "os"
 )
 
-func validarIdade(idade int) error {
-    if idade < 18 {
-        return errors.New("idade inválida")
-    }
-
-    return nil
-}
-
 func main() {
-    errors := validarIdade(15)
 
-    if error != nil {
-        fmt.Println(errors)
+    _, err := os.Open("arquivo.txt")
+
+    if err != nil {
+        fmt.Println("Erro ao abrir arquivo")
     }
 }
 ```
+
+## Explicação
+
+- `err` armazena possíveis erros
+- `if err != nil` verifica falhas

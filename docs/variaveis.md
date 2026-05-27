@@ -1,6 +1,6 @@
 # Variáveis em Go
 
-Variáveis servem para armazenar valores.
+Variáveis armazenam valores na memória.
 
 ## Exemplo
 
@@ -10,6 +10,7 @@ package main
 import "fmt"
 
 func main() {
+
     nome := "Daiana"
     idade := 20
 
@@ -20,6 +21,6 @@ func main() {
 
 ## Explicação
 
-- `nome` guarda texto
-- `idade` guarda número
-- `fmt.Println()` mostra valores na tela
+- `nome` armazena texto
+- `idade` armazena números
+- `:=` cria variáveis automaticamente

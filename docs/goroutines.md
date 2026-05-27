@@ -1,6 +1,8 @@
-# Goroutines em Go
+# Goroutines
 
-Goroutines permitem executar funções simultaneamente.
+Goroutines permitem executar tarefas simultaneamente.
+
+## Exemplo
 
 ```go
 package main
@@ -25,4 +27,4 @@ func main() {
 ## Explicação
 
 - `go` cria uma goroutine
-- `time.Sleep()` evita que o programa finalize antes
+- o programa executa funções em paralelo
