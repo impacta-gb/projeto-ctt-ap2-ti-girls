@@ -1,111 +1,34 @@
----
-icon: simple/markdown
----
+# Introdução ao Go
 
-# Markdown in 5min
+Go é uma linguagem de programação criada pelo Google.
 
-## Headers
+Ela é conhecida por:
 
-```
-# H1 Header
-## H2 Header
-### H3 Header
-#### H4 Header
-##### H5 Header
-###### H6 Header
-```
+- simplicidade
+- velocidade
+- concorrência
+- facilidade de manutenção
 
-## Text formatting
+## Instalação
 
-```
-**bold text**
-*italic text*
-***bold and italic***
-~~strikethrough~~
-`inline code`
-```
+O Go pode ser instalado pelo site oficial:
 
-## Links and images
+https://go.dev/
 
-```
-[Link text](https://example.com)
-[Link with title](https://example.com "Hover title")
-![Alt text](image.jpg)
-![Image with title](image.jpg "Image title")
-```
+## Primeiro programa
 
-## Lists
+```go
+package main
 
-```
-Unordered:
+import "fmt"
 
-- Item 1
-- Item 2
-  - Nested item
-
-Ordered:
-
-1. First item
-2. Second item
-3. Third item
-```
-
-## Blockquotes
-
-```
-> This is a blockquote
-> Multiple lines
->> Nested quote
-```
-
-## Code blocks
-
-````
-```javascript
-function hello() {
-  console.log("Hello, world!");
+func main() {
+    fmt.Println("Olá, Go!")
 }
 ```
-````
 
-## Tables
+## Explicação
 
-```
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1    | Data     | Data     |
-| Row 2    | Data     | Data     |
-```
-
-## Horizontal rule
-
-```
----
-or
-***
-or
-___
-```
-
-## Task lists
-
-```
-- [x] Completed task
-- [ ] Incomplete task
-- [ ] Another task
-```
-
-## Escaping characters
-
-```
-Use backslash to escape: \* \_ \# \`
-```
-
-## Line breaks
-
-```
-End a line with two spaces  
-to create a line break.
-
-Or use a blank line for a new paragraph.
-```
+- `package main` define o programa principal
+- `fmt` permite imprimir mensagens
+- `main()` é a função inicial do programa
