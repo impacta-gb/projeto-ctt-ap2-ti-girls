@@ -1,3 +1,7 @@
+# Goroutines em Go
+
+Goroutines permitem executar funções simultaneamente.
+
 ```go
 package main
 
@@ -6,13 +10,19 @@ import (
     "time"
 )
 
-func tarefa() {
+func mensagem() {
     fmt.Println("Executando goroutine")
 }
 
 func main() {
-    go tarefa()
+
+    go mensagem()
 
     time.Sleep(time.Second)
 }
 ```
+
+## Explicação
+
+- `go` cria uma goroutine
+- `time.Sleep()` evita que o programa finalize antes
