@@ -1,5 +1,11 @@
 # Documentação Go
 
+## Site da documentação
+
+Acesse a documentação publicada no GitHub Pages:
+
+https://impacta-gb.github.io/projeto-ctt-ap2-ti-girls/
+
 ## Descrição do Projeto
 
 Este projeto tem como objetivo apresentar uma documentação educativa sobre a linguagem Go (Golang), abordando conceitos fundamentais da linguagem de forma simples, prática e organizada.
